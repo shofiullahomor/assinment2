@@ -40,9 +40,9 @@ This is a Vehicle Rental Management System built using **Node.js**, **Express**,
 ## Setup & Usage
 
 ### 1. Clone the repository
-git clone https://github.com/shofiullahomor/assinment2.git
-```bash
 git clone 
+```bash
+git clone https://github.com/shofiullahomor/assinment2.git
 ```
 
 ### 2. Install dependencies
@@ -56,7 +56,7 @@ npm install
 
 Create a .env file in the root directory:
 
-
+env PORT=5000 CONNECTION_STRING=<PostgreSQL_Connection_String> SECRET_JWT=<Secret_JWT_Key>
 
 ### 4. Run the Project
 
